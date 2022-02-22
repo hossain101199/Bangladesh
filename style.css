@@ -1,0 +1,77 @@
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+}
+/* top section -------------------------------------------------------*/
+.top-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-sdie {
+  width: 50%;
+}
+.flag img {
+  width: 400px;
+}
+.details {
+  padding: 20px 70px;
+  border-radius: 5px;
+  background-image: linear-gradient(45deg, green, red, green);
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  margin-top: 15px;
+}
+/* divission ----------------------------------------------------*/
+.divission {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  padding: 50px;
+}
+.all-divisions {
+  display: flex;
+  /* align-items: space-around; */
+  justify-content: space-around;
+}
+.divission-div {
+  width: 300px;
+  /* border: 1px solid gray; */
+
+  border-radius: 5px;
+  box-shadow: 4px 4px 12px gray;
+}
+#dha{
+  background-color: blanchedalmond;
+}
+#raj{
+  background-color: burlywood;
+}
+#khu{
+  background-color: antiquewhite;
+}
+.photo img {
+  width: 100%;
+  border-radius: 5px;
+}
+.second-section {
+  padding: 10px;
+}
+.description {
+  text-align: left;
+}
+.div-btn {
+  padding: 10px 30px;
+  border: none;
+  background-color: purple;
+  color: #fff;
+  font: 16px;
+}
+/* footer----------------------------------------------- */
+.footer-content {
+  margin-top: 50px;
+  text-align: center;
+}
